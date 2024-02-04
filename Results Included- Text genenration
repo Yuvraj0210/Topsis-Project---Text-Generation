@@ -1,1 +1,34 @@
+# DECISION MATRIX
+decision_matrix <- matrix(c(
+  0.751, 0.851, 0.802, 0.901, 0.703,
+  0.803, 0.906, 0.752, 0.855, 0.759,
+  0.604, 0.708, 0.651, 0.758, 0.800,
+  0.706, 0.806, 0.708, 0.802, 0.651
+), ncol = 5, byrow = TRUE)
 
+
+# Display the weighted decision matrix
+print("Weighted Decision Matrix:")
+ "Weighted Decision Matrix:"
+  print(weighted_decision_matrix)
+          [,1]      [,2]      [,3]      [,4]      [,5]
+[1,] 0.2086885 0.2330146 0.1930781 0.2467236 0.1712618
+[2,] 0.1956233 0.2517600 0.2059071 0.2058377 0.2078393
+[3,] 0.1653952 0.1724799 0.1809004 0.2075500 0.1925966
+[4,] 0.1699665 0.2207094 0.1724799 0.2228604 0.1782520
+
+
+
+# Step 8.1-Display the Performance Score
+print("Performance Score (Relative Closeness):")
+"Performance Score (Relative Closeness):"
+print(performance_score)
+0.3719354 0.5514992 0.2865626 0.6285379 0.2747062
+
+
+
+# Step 9.1- Display the ranked alternatives in increasing order
+print("Ranked Alternatives (Increasing Order):")
+"Ranked Alternatives (Increasing Order):"
+print(ranked_alternatives_increasing)
+5 3 1 2 4
