@@ -3,7 +3,7 @@ install.packages("topsis")
 library(topsis)
 
 #Step 1- Defining Criteria
-criteria <- c("sentences_flow", "relevence", "fluency", "grammar", "diversity")
+criteria <- c("grammar", "relevance", "fluency", "diversity", "sentences_flow")
 
 #Step 2- Decision Matrix
 decision_matrix <- matrix(c(
