@@ -1,7 +1,4 @@
-# Topsis-Project---Text-Generation
-
-# Project Made by - Yuvraj Puri, 102153041
-
+# Project Made by - Yuvraj Puri, 102153041, Computer Engineering (3CO28)
 
 # TOPSIS-Based Text Generation Overview:
 
